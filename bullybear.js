@@ -4,7 +4,7 @@ switch(bear) {
     case 'BATTLE':
         var weapon=prompt("Wow, you're gonna fight! Do you even have a weapon equipped (yes or no)?").toUpperCase();
         var dex=("Are you fast at least(yes or no)?"); 
-        if(weapon==='YES' || fast === 'YES') {
+        if(weapon==='YES' || dex === 'YES') {
             console.log("It's all good, as long as you can be nimble warrior or wield a weapon you can still keep your pants!");
         } else {
             console.log("Looks like someone shamefully loses their pants this day. Sucks.")
