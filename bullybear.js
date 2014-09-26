@@ -22,7 +22,7 @@ switch(bear) {
         break;
     case 'REASON':
         var mediate=prompt("So you're going to try and kindly ask the bear not to take your pants.(yes or no?)").toUpperCase();
-        var insult=("Are you sure you want to insult the bear?(yes or no?)").toUpperCase();
+        var insult=prompt("Are you sure you want to insult the bear?(yes or no?)").toUpperCase();
         if (mediate === 'YES' && insult === 'YES') {
         console.log("Bear don't care! The bear takes your pants and then eats you.");
         } else {
